@@ -7,7 +7,11 @@ export default Ember.Component.extend({
 
   didInsertElement: function() {
     this._initializeValues();
-    this.$().colorpicker(this.getProperties('color', 'format', 'align', 'container', 'customClass', 'sliders'));
+    this.$().colorpicker(this.getProperties(
+      'color', 
+      'format', 
+      'fallbackColor'
+    ));
     this.$().on('changeColor', $.proxy(this.didChangeColorFromComponent, this));
     this.$().on('showPicker', $.proxy(this.didChangeColorFromComponent, this));
   },

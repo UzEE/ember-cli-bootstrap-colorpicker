@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-bootstrap-colorpicker",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "description": "Bootstrap colorpicker for Ember",
   "directories": {
     "doc": "doc",
@@ -21,13 +21,13 @@
     "bootstrap": "^3.3.7",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
-    "ember-bootstrap": "^1.0.0-rc.2",
-    "ember-cli": "~2.15.1",
+    "ember-bootstrap": "^1.0.0-rc.4",
+    "ember-cli": "~2.16.1",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.0.0",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
-    "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-inject-live-reload": "^1.6.1",
     "ember-cli-qunit": "^4.0.0",
     "ember-cli-shims": "^1.1.0",
     "ember-cli-sri": "^2.1.0",
@@ -36,17 +36,17 @@
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
-    "ember-source": "~2.15.0",
+    "ember-source": "~2.16.2",
     "loader.js": "^4.2.3"
   },
   "keywords": [
     "ember-addon"
   ],
   "dependencies": {
-    "bootstrap-colorpicker": "^2.5.1",
+    "bootstrap-colorpicker": "^2.5.2",
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^2.0.0",
-    "ember-cli-babel": "^6.3.0"
+    "ember-cli-babel": "^6.8.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
